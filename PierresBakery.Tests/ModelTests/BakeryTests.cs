@@ -16,5 +16,14 @@ namespace PierresBakery.Tests
       int quantity = 6;
       Assert.AreEqual(20, testBread.BreadCost(quantity));
     }
+
+    [TestMethod]
+    public void FindTotalCostOfPastry_InputPastryQuantityAndGetPrice_ReturnPriceOfTwoOrBuy3For5()
+    {
+      // testing code will go here
+      Pastry testPastry = new Pastry();
+      int quantity = 7;
+      Assert.AreEqual(20, testPastry.PastryCost(quantity));
+    }
   }
 }
