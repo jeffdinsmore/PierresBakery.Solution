@@ -7,3 +7,5 @@ C:\users\Jeffrey\documents\Epicodus\csharp\pierresbakery.solution\PierresBakery\
 C:\users\Jeffrey\documents\Epicodus\csharp\pierresbakery.solution\PierresBakery\bin\Debug\netcoreapp2.2\PierresBakery.pdb
 C:\users\Jeffrey\documents\Epicodus\csharp\pierresbakery.solution\PierresBakery\obj\Debug\netcoreapp2.2\PierresBakery.dll
 C:\users\Jeffrey\documents\Epicodus\csharp\pierresbakery.solution\PierresBakery\obj\Debug\netcoreapp2.2\PierresBakery.pdb
+C:\users\Jeffrey\documents\Epicodus\csharp\pierresbakery.solution\pierresbakery\bin\Debug\netcoreapp2.2\PierresBakery.runtimeconfig.json
+C:\users\Jeffrey\documents\Epicodus\csharp\pierresbakery.solution\pierresbakery\bin\Debug\netcoreapp2.2\PierresBakery.runtimeconfig.dev.json
