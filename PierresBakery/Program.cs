@@ -31,7 +31,11 @@ class Program
     {
       Console.WriteLine("We are sorry to see you go without any delicious baked goods! Have a nice day!");
     }
-
-    
+    else
+    {
+      Console.WriteLine("You total today is " + "$" + breadTotal + pastryTotal + ".");
+      Console.WriteLine("(Money is being exchanged");
+      Console.WriteLine("We really appreciate you coming in today!");
+    }
   }
 }
