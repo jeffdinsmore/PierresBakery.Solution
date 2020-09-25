@@ -1,12 +1,12 @@
-# _Application Name_
+# _Pierre's Bakery_
 
-#### _{Brief descrition on what application does}, {Date}_
+#### _Visit Pierre's Bakery to mock buy your choice of bread and/or pastries, 09/25/2020_
 
 #### By _Jeff Dinsmore_
 
 ## Description
 
-_{Detailed description on what the application does.}_
+_This application provides a user to visit Pierre's (virtual) Bakery. As they enter they are welcomed into the bakery and asked if they want to buy any bread. If a user chooses yes, they program will ask how many loaves of bread they want. After the user inputs a number, the program will ask the user if they want to purchase any pastries and how many they want with the same format as the bread questions. After both selections are made, the program will return a price for the total of the items._
 
 ## Setup/Installation Requirements
 
@@ -14,9 +14,9 @@ _{Detailed description on what the application does.}_
 * _Open repository in your preferred code builder program. (This was built in VS Code)_
 * _Check both of the .csproj files to ensure the proper framework under the "PropertyGroup" and "TargetFramework". I am using netcoreapp2.2. Your version may be newer_
 * _If the framework does not match above, update the version of your netcoreapp by changing the numbers. For example if you are using netcoreapp 3.1, change netcoreapp2.2 to netcoreapp3.1_
-* _In the terminal, cd into the NumberToWords.Tetst folder_
+* _In the terminal, cd into the PierresBakery.Test directory_
 * _Type in the terminal "dotnet restore"_
-* _To run the program, type cd into the "NumbersToWords" directory and type dotnet run in the terminal_
+* _To run the program, cd into the "PierresBakery" directory and type dotnet run in the terminal_
 * _The program should now be running_
 
 ## Known Bugs

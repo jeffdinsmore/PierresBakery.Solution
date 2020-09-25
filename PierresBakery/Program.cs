@@ -9,7 +9,7 @@ class Program
     int pastryTotal = 0;
     Console.WriteLine("Welcome to Pierre's Bakery! The best baked goods in town!");
     Console.WriteLine("We sell bread and we sell pastries.");
-    Console.WriteLine("Would you like to buy any bread today? They are $5 each or buy 2 get one free.");
+    Console.WriteLine("Would you like to buy any bread today? They are $5 each or buy 2, get 1 free.");
     string buyBreadResponse = Console.ReadLine().ToLower();
     if (buyBreadResponse.Substring(0,1) == "y")
     {
