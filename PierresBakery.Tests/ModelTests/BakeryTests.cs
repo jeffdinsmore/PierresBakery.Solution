@@ -48,7 +48,7 @@ namespace PierresBakery.Tests
     {
       Pastry testPastry = new Pastry();
       int quantity = 3;
-      Assert.AreEqual(6, testPastry.PastryCost(quantity));
+      Assert.AreEqual(5, testPastry.PastryCost(quantity));
     }
     [TestMethod]
     public void FindCostOfOnePastry_InputPastryQuantityAndGetPrice_ReturnPriceOfOnePastry()
