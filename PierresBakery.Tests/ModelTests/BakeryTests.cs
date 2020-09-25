@@ -22,7 +22,7 @@ namespace PierresBakery.Tests
       // testing code will go here
       Bread testBread = new Bread();
       int quantity = 1;
-      Assert.AreEqual(1, testBread.BreadCost(quantity));
+      Assert.AreEqual(5, testBread.BreadCost(quantity));
     }
   }
   [TestClass]
