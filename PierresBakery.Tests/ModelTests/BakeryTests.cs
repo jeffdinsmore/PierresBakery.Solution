@@ -12,7 +12,7 @@ namespace PierresBakery.Tests
     public void FindTotalCostOfBread_InputBreadQuantityAndGetPrice_ReturnPriceOfBuy2Get1Free()
     {
       // testing code will go here
-      Bakery testBread = new Bakery();
+      Bread testBread = new Bread();
       int quantity = 6;
       Assert.AreEqual(20, testBread.BreadCost(quantity));
     }

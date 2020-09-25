@@ -2,7 +2,7 @@ using System;
 
 namespace PierresBakery.Models
 {
-  public class Bakery
+  public class Bread
   {
     public int BreadCost(int quantity)
     {
@@ -26,7 +26,7 @@ namespace PierresBakery.Models
   }
   public class Pastry
   {
-public int PastryCost(int quantity)
+    public int PastryCost(int quantity)
     {
       int pastryCost = 2;
       int count = 0;
