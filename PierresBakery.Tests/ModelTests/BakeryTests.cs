@@ -1,17 +1,20 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName.Models;
+using PierresBakery.Models;
+using System;
 
-namespace ProjectName.Tests
+
+namespace PierresBakery.Tests
 {
   [TestClass]
-  public class NameTests
+  public class BakeryTests
   {
     [TestMethod]
-    public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
+    public void FindTotalCostOfBread_InputBreadQuantityAndGetPrice_ReturnPriceOfBuy2Get1Free()
     {
       // testing code will go here
-      Name testName = new Name();
-      Assert.AreEqual(true, testName.NameofMethodWeAreTesting());
+      Bakery testBread = new Bakery();
+      int quantity = 1;
+      Assert.AreEqual(3, testBread.BreadCost(quantity));
     }
   }
 }
