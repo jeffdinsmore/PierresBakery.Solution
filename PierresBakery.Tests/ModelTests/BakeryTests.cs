@@ -13,7 +13,7 @@ namespace PierresBakery.Tests
     {
       // testing code will go here
       Bakery testBread = new Bakery();
-      int quantity = 1;
+      int quantity = 6;
       Assert.AreEqual(3, testBread.BreadCost(quantity));
     }
   }

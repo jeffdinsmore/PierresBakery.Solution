@@ -2,3 +2,8 @@ C:\users\Jeffrey\documents\Epicodus\csharp\pierresbakery.solution\PierresBakery\
 C:\users\Jeffrey\documents\Epicodus\csharp\pierresbakery.solution\PierresBakery\obj\Debug\netcoreapp2.2\PierresBakery.csproj.CoreCompileInputs.cache
 C:\users\Jeffrey\documents\Epicodus\csharp\pierresbakery.solution\PierresBakery\obj\Debug\netcoreapp2.2\PierresBakery.AssemblyInfoInputs.cache
 C:\users\Jeffrey\documents\Epicodus\csharp\pierresbakery.solution\PierresBakery\obj\Debug\netcoreapp2.2\PierresBakery.AssemblyInfo.cs
+C:\users\Jeffrey\documents\Epicodus\csharp\pierresbakery.solution\PierresBakery\bin\Debug\netcoreapp2.2\PierresBakery.deps.json
+C:\users\Jeffrey\documents\Epicodus\csharp\pierresbakery.solution\PierresBakery\bin\Debug\netcoreapp2.2\PierresBakery.dll
+C:\users\Jeffrey\documents\Epicodus\csharp\pierresbakery.solution\PierresBakery\bin\Debug\netcoreapp2.2\PierresBakery.pdb
+C:\users\Jeffrey\documents\Epicodus\csharp\pierresbakery.solution\PierresBakery\obj\Debug\netcoreapp2.2\PierresBakery.dll
+C:\users\Jeffrey\documents\Epicodus\csharp\pierresbakery.solution\PierresBakery\obj\Debug\netcoreapp2.2\PierresBakery.pdb

@@ -6,9 +6,18 @@ namespace PierresBakery.Models
   {
     public int BreadCost(int quantity)
     {
-      int breadCost = 4.99;
-      // Bread is buy 2, get 1 free
-      int formula = Math.Floor((quantity/3)*2) + Math.Floor(quantity % 3);
+      int breadCost = 5;
+      int count = 0;
+      int countModulo = 0;
+      for (int i = 0; i < quantity; i++)
+      {
+        count ++;
+        if (count % 3 == 0)
+        {
+          countModulo ++;
+        }
+      }
+      int formula = count - countModulo;
       int total = breadCost * formula;
       return total;
     }
