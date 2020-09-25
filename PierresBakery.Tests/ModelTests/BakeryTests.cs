@@ -53,7 +53,7 @@ namespace PierresBakery.Tests
       // testing code will go here
       Pastry testPastry = new Pastry();
       int quantity = 1;
-      Assert.AreEqual(1, testPastry.PastryCost(quantity));
+      Assert.AreEqual(2, testPastry.PastryCost(quantity));
     }
     
   }
