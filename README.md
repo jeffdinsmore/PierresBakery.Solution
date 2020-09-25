@@ -14,13 +14,25 @@ Spec 1: The program accepts an inputted bread quantity and outputs the calculate
 * Input: 1
 * Output: "$5"
 
-Spec 2: The program accepts an inputted bread quantity of 3 and outputs the calculated price of of buy 2, get 1 free with a base price of $5 per loaf.
+Spec 2: The program accepts an inputted bread quantity of 3 and outputs the calculated price of buy 2, get 1 free with a base price of $5 per loaf.
 * Input: 3
 * Output: "$10"
 
-Spec 3: The program accepts an input of any multiple bread quantity and outputs the calculated price of of buy 2, get 1 free with a base price of $5 per loaf.
+Spec 3: The program accepts an input of any multiple bread quantity and outputs the calculated price of buy 2, get 1 free with a base price of $5 per loaf.
 * Input: 5
 * Output: "$20"
+
+Spec 4: The program accepts an inputted pastry quantity and outputs the calculated price of $2.
+* Input: 1
+* Output: "$2"
+
+Spec 5: The program accepts an inputted pastry quantity of 3 and outputs the calculated price of 3 for $5 with a base price of $2 per pastry.
+* Input: 3
+* Output: "$5"
+
+Spec 6: The program accepts an input of any multiple pastry quantity and outputs the calculated price of 3 for $5 with a base price of $2 per pastry.
+* Input: 5
+* Output: "$9"
 
 ## Setup/Installation Requirements
 
@@ -50,6 +62,6 @@ _Any known issues, please reach out to Jeff Dinsmore by email at hello@jeffdinsm
 
 ## License
 
-Copyright (c) 2020, **_Jeff Dinsmore_**_
+Copyright (c) 2020, **_Jeff Dinsmore_**
 
 This software is licensed under the MIT license.
