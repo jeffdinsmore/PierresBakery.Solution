@@ -6,7 +6,7 @@ using System;
 namespace PierresBakery.Tests
 {
   [TestClass]
-  public class BakeryTests
+  public class BreadTests
   {
     [TestMethod]
     public void FindTotalCostOfBread_InputBreadQuantityAndGetPrice_ReturnPriceOfBuy2Get1Free()
@@ -16,7 +16,18 @@ namespace PierresBakery.Tests
       int quantity = 6;
       Assert.AreEqual(20, testBread.BreadCost(quantity));
     }
-
+    [TestMethod]
+    public void FindTotalCostOfOneLoaf_InputBreadQuantityAndGetPrice_ReturnPriceOfLoaf()
+    {
+      // testing code will go here
+      Bread testBread = new Bread();
+      int quantity = 1;
+      Assert.AreEqual(1, testBread.BreadCost(quantity));
+    }
+  }
+  [TestClass]
+  public class PastryTests
+  {
     [TestMethod]
     public void FindTotalCostOfPastry_InputPastryQuantityAndGetPrice_ReturnPriceOfTwoOrBuy3For5()
     {
@@ -25,5 +36,6 @@ namespace PierresBakery.Tests
       int quantity = 7;
       Assert.AreEqual(12, testPastry.PastryCost(quantity));
     }
+    
   }
 }
