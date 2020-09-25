@@ -14,7 +14,7 @@ namespace PierresBakery.Tests
       // testing code will go here
       Bakery testBread = new Bakery();
       int quantity = 6;
-      Assert.AreEqual(3, testBread.BreadCost(quantity));
+      Assert.AreEqual(20, testBread.BreadCost(quantity));
     }
   }
 }
