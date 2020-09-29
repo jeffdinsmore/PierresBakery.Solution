@@ -15,10 +15,12 @@ class Program
     {
       System.Threading.Thread.Sleep(800);
       Console.WriteLine("---------------------------------------------------");
-      Console.WriteLine("Very good! What type of bread would you like? Twenty One Grain or Powerseed?");
-      if (breadType.subString(0,1) == "t");
+      Console.WriteLine("Very good! What type of bread would you like? Twenty One Grain or Powerseed or both?");
+      string breadType = Console.ReadLine().ToLower();
+      if (breadType.Substring(0,1) == "t")
       {
         Console.WriteLine("How many loaves would you like?");
+
       }
       
       int breadQuantityResponse = int.Parse(Console.ReadLine());
