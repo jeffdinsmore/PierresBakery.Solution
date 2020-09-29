@@ -4,8 +4,10 @@ namespace PierresBakery.Models
 {
   public class Bread
   {
+    public int Quantity {get; set;}
     public int BreadCost(int quantity)
     {
+      Quantity = quantity;
       int breadCost = 5;
       int count = 0;
       int countFreeItem = 0;
