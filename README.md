@@ -10,15 +10,15 @@ _This application provides a user to visit Pierre's (virtual) Bakery. As they en
 
 Describe: PierresBakery()
 
-Spec 1: The program accepts an inputted bread quantity and outputs the calculated price of $5.
+Spec 1: The program accepts an inputted 21 grain bread quantity and outputs the calculated price of $5.
 * Input: 1
 * Output: "$5"
 
-Spec 2: The program accepts an inputted bread quantity of 3 and outputs the calculated price of buy 2, get 1 free with a base price of $5 per loaf.
+Spec 2: The program accepts an inputted 21 grain bread quantity of 3 and outputs the calculated price of buy 2, get 1 free with a base price of $5 per loaf.
 * Input: 3
 * Output: "$10"
 
-Spec 3: The program accepts an input of any multiple bread quantity and outputs the calculated price of buy 2, get 1 free with a base price of $5 per loaf.
+Spec 3: The program accepts an input of any multiple 21 grain bread quantity and outputs the calculated price of buy 2, get 1 free with a base price of $5 per loaf.
 * Input: 5
 * Output: "$20"
 
@@ -33,6 +33,18 @@ Spec 5: The program accepts an inputted pastry quantity of 3 and outputs the cal
 Spec 6: The program accepts an input of any multiple pastry quantity and outputs the calculated price of 3 for $5 with a base price of $2 per pastry.
 * Input: 5
 * Output: "$9"
+
+Spec 7: The program accepts an inputted 21 grain and powerseed bread quantity and outputs the calculated price of $11.
+* Input: 1, 1
+* Output: "$11"
+
+Spec 8: The program accepts an inputted 21 grain and powerseed bread quantity of 3 and 4 respectively and outputs the calculated price of buy 2, get 1 free for 21 grain and buy 3, get 1 free for powerseed with a base price of $5 and $6 per loaf respectively.
+* Input: 3, 4
+* Output: "$28"
+
+Spec 9: The program accepts an input of any multiple 21 grain and powerseed bread quantity and outputs the calculated price of buy 2, get 1 free with a base price of $5 per loaf and buy 3, get 1 free with a base price of $6 per loaf respectively.
+* Input: 7, 9
+* Output: "$67"
 
 ## Setup/Installation Requirements
 
