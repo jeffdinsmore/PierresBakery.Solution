@@ -28,8 +28,10 @@ namespace PierresBakery.Models
   }
   public class Pastry
   {
+    public int Quantity {get; set;}
     public int PastryCost(int quantity)
     {
+      Quantity = quantity;
       int pastryCost = 2;
       int count = 0;
       int countFreeItem = 0;

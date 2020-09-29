@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\users\\Jeffrey\\documents\\Epicodus\\csharp\\pierresbakery.solution\\PierresBakery\\PierresBakery.csproj": {}
+    "C:\\users\\Jeffrey\\documents\\epicodus\\csharp\\pierresbakery.solution\\pierresbakery\\PierresBakery.csproj": {}
   },
   "projects": {
-    "C:\\users\\Jeffrey\\documents\\Epicodus\\csharp\\pierresbakery.solution\\PierresBakery\\PierresBakery.csproj": {
+    "C:\\users\\Jeffrey\\documents\\epicodus\\csharp\\pierresbakery.solution\\pierresbakery\\PierresBakery.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\users\\Jeffrey\\documents\\Epicodus\\csharp\\pierresbakery.solution\\PierresBakery\\PierresBakery.csproj",
+        "projectUniqueName": "C:\\users\\Jeffrey\\documents\\epicodus\\csharp\\pierresbakery.solution\\pierresbakery\\PierresBakery.csproj",
         "projectName": "PierresBakery",
-        "projectPath": "C:\\users\\Jeffrey\\documents\\Epicodus\\csharp\\pierresbakery.solution\\PierresBakery\\PierresBakery.csproj",
+        "projectPath": "C:\\users\\Jeffrey\\documents\\epicodus\\csharp\\pierresbakery.solution\\pierresbakery\\PierresBakery.csproj",
         "packagesPath": "C:\\Users\\Jeffrey\\.nuget\\packages\\",
-        "outputPath": "C:\\users\\Jeffrey\\documents\\Epicodus\\csharp\\pierresbakery.solution\\PierresBakery\\obj\\",
+        "outputPath": "C:\\users\\Jeffrey\\documents\\epicodus\\csharp\\pierresbakery.solution\\pierresbakery\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

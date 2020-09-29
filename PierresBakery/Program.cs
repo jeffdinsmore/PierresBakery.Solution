@@ -9,13 +9,18 @@ class Program
     int pastryTotal = 0;
     Console.WriteLine("Welcome to Pierre's Bakery! The best baked goods in town!");
     Console.WriteLine("We sell bread and we sell pastries.");
-    Console.WriteLine("Would you like to buy any bread today? They are $5 each or buy 2, get 1 free.");
+    Console.WriteLine("Would you like to buy any bread today? Twenty One Grain is $5 each or buy 2, get 1 free and Powerseed is $6 each or buy 3, get one free.");
     string buyBreadResponse = Console.ReadLine().ToLower();
     if (buyBreadResponse.Substring(0,1) == "y")
     {
       System.Threading.Thread.Sleep(800);
       Console.WriteLine("---------------------------------------------------");
-      Console.WriteLine("Very good! How many loaves of bread would you like?");
+      Console.WriteLine("Very good! What type of bread would you like? Twenty One Grain or Powerseed?");
+      if (breadType.subString(0,1) == "t");
+      {
+        Console.WriteLine("How many loaves would you like?");
+      }
+      
       int breadQuantityResponse = int.Parse(Console.ReadLine());
       Console.WriteLine("----------");
       Console.WriteLine("Excellent!");
