@@ -15,14 +15,18 @@ namespace PierresBakery.Models
       int countFreeTwentyOneGrainItem = 0;
       int countFreePowerseedItem = 0;
       int count = 0;
-      for (int i = 0; i < quantity; i++)
+      for (int i = 0; i < twentyOneGrainQuantity; i++)
       {
         count ++;
         if (count % 3 == 0)
         {
           countFreeTwentyOneGrainItem ++;
         }
-        else if (count % 4 == 0)
+      }
+      for (int i = 0; i < powerseedQuantity; i++)
+      {
+        count ++;
+        if (count % 4 == 0)
         {
           countFreePowerseedItem ++;
         }

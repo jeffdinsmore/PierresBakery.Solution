@@ -27,7 +27,7 @@ class Program
       Console.WriteLine("----------");
       Console.WriteLine("Excellent!");
       Bread newBread = new Bread();
-      breadTotal = newBread.BreadCost(breadQuantityResponse);
+      breadTotal = newBread.BreadCost(breadQuantityResponse, 0);
       System.Threading.Thread.Sleep(600);
     }
     System.Threading.Thread.Sleep(600);

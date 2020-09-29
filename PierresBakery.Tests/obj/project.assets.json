@@ -5887,11 +5887,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\users\\Jeffrey\\documents\\Epicodus\\csharp\\pierresbakery.solution\\pierresbakery.tests\\PierresBakery.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\jeffrey\\documents\\epicodus\\csharp\\pierresbakery.solution\\pierresbakery.tests\\PierresBakery.Tests.csproj",
       "projectName": "PierresBakery.Tests",
-      "projectPath": "C:\\users\\Jeffrey\\documents\\Epicodus\\csharp\\pierresbakery.solution\\pierresbakery.tests\\PierresBakery.Tests.csproj",
+      "projectPath": "C:\\Users\\jeffrey\\documents\\epicodus\\csharp\\pierresbakery.solution\\pierresbakery.tests\\PierresBakery.Tests.csproj",
       "packagesPath": "C:\\Users\\Jeffrey\\.nuget\\packages\\",
-      "outputPath": "C:\\users\\Jeffrey\\documents\\Epicodus\\csharp\\pierresbakery.solution\\pierresbakery.tests\\obj\\",
+      "outputPath": "C:\\Users\\jeffrey\\documents\\epicodus\\csharp\\pierresbakery.solution\\pierresbakery.tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5908,8 +5908,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\users\\Jeffrey\\documents\\Epicodus\\csharp\\pierresbakery.solution\\PierresBakery\\PierresBakery.csproj": {
-              "projectPath": "C:\\users\\Jeffrey\\documents\\Epicodus\\csharp\\pierresbakery.solution\\PierresBakery\\PierresBakery.csproj"
+            "C:\\Users\\jeffrey\\documents\\epicodus\\csharp\\pierresbakery.solution\\PierresBakery\\PierresBakery.csproj": {
+              "projectPath": "C:\\Users\\jeffrey\\documents\\epicodus\\csharp\\pierresbakery.solution\\PierresBakery\\PierresBakery.csproj"
             }
           }
         }

@@ -9,27 +9,53 @@ namespace PierresBakery.Tests
   public class BreadTests
   {
     [TestMethod]
-    public void FindTotalCostOfMultipleBreads_InputBreadQuantityAndGetPrice_ReturnPriceOfMultipleBreads()
+    public void FindTotalCostOfMultipleQuantitiesOfFirstBread_InputBreadQuantityAndGetPrice_ReturnPriceOfMultipleBreads()
     {
       Bread testBread = new Bread();
       int quantity = 7;
-      Assert.AreEqual(25, testBread.BreadCost(quantity));
+      Assert.AreEqual(25, testBread.BreadCost(quantity, 0));
     }
 
     [TestMethod]
-    public void FindTotalCostOfBread_InputBreadQuantityAndGetPrice_ReturnPriceOfBuy2Get1Free()
+    public void FindTotalCostOfTwentyOneGrainBread_InputBreadQuantityAndGetPrice_ReturnPriceOfBuy2Get1Free()
     {
       Bread testBread = new Bread();
       int quantity = 3;
-      Assert.AreEqual(10, testBread.BreadCost(quantity));
+      Assert.AreEqual(10, testBread.BreadCost(quantity, 0));
     }
 
     [TestMethod]
-    public void FindTotalCostOfOneLoaf_InputBreadQuantityAndGetPrice_ReturnPriceOfLoaf()
+    public void FindTotalCostOfOneLoafTwentyOneGrain_InputBreadQuantityAndGetPrice_ReturnPriceOfLoaf()
     {
       Bread testBread = new Bread();
       int quantity = 1;
-      Assert.AreEqual(5, testBread.BreadCost(quantity));
+      Assert.AreEqual(5, testBread.BreadCost(quantity, 0));
+    }
+    [TestMethod]
+    public void FindTotalCostOfMultipleBreads_InputBreadQuantityAndGetPrice_ReturnPriceOfMultipleBreads()
+    {
+      Bread testBread = new Bread();
+      int quantity1 = 7;
+      int quantity2 = 9;
+      Assert.AreEqual(25, testBread.BreadCost(quantity1, quantity2));
+    }
+
+    [TestMethod]
+    public void FindTotalCostOfTwoBreads_InputBreadQuantityAndGetPrice_ReturnPriceOfBuy2Get1FreeAndBuy3Get1Free()
+    {
+      Bread testBread = new Bread();
+      int quantity1 = 3;
+      int quantity2 = 4;
+      Assert.AreEqual(10, testBread.BreadCost(quantity1, quantity2));
+    }
+
+    [TestMethod]
+    public void FindTotalCostOfOneLoafEach_InputBreadQuantityAndGetPrice_ReturnPriceOfLoaf()
+    {
+      Bread testBread = new Bread();
+      int quantity1 = 1;
+      int quantity2 = 1;
+      Assert.AreEqual(5, testBread.BreadCost(quantity1, quantity2));
     }
   }
   [TestClass]
