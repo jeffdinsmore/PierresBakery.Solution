@@ -14,26 +14,27 @@ namespace PierresBakery.Models
       int powerseedCost = 6;
       int countFreeTwentyOneGrainItem = 0;
       int countFreePowerseedItem = 0;
-      int count = 0;
+      int countTwentyOneGrain = 0;
+      int countPowerseed = 0;
       for (int i = 0; i < twentyOneGrainQuantity; i++)
       {
-        count ++;
-        if (count % 3 == 0)
+        countTwentyOneGrain ++;
+        if (countTwentyOneGrain % 3 == 0)
         {
           countFreeTwentyOneGrainItem ++;
         }
       }
       for (int i = 0; i < powerseedQuantity; i++)
       {
-        count ++;
-        if (count % 4 == 0)
+        countPowerseed ++;
+        if (countPowerseed % 4 == 0)
         {
           countFreePowerseedItem ++;
         }
       }
-      int formulaTwentyOneGrain = count - countFreeTwentyOneGrainItem;
-      int formulaPowerseed = count - countFreePowerseedItem;
-      int total = (twentyOneGrainCost * formulaTwentyOneGrain) + (powerseedCost * countFreePowerseedItem);
+      int formulaTwentyOneGrain = countTwentyOneGrain - countFreeTwentyOneGrainItem;
+      int formulaPowerseed = countPowerseed - countFreePowerseedItem;
+      int total = (twentyOneGrainCost * formulaTwentyOneGrain) + (powerseedCost * formulaPowerseed);
       return total;
     }
     

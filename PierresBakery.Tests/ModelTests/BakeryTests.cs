@@ -37,7 +37,7 @@ namespace PierresBakery.Tests
       Bread testBread = new Bread();
       int quantity1 = 7;
       int quantity2 = 9;
-      Assert.AreEqual(25, testBread.BreadCost(quantity1, quantity2));
+      Assert.AreEqual(67, testBread.BreadCost(quantity1, quantity2));
     }
 
     [TestMethod]
@@ -46,7 +46,7 @@ namespace PierresBakery.Tests
       Bread testBread = new Bread();
       int quantity1 = 3;
       int quantity2 = 4;
-      Assert.AreEqual(10, testBread.BreadCost(quantity1, quantity2));
+      Assert.AreEqual(28, testBread.BreadCost(quantity1, quantity2));
     }
 
     [TestMethod]
@@ -55,7 +55,7 @@ namespace PierresBakery.Tests
       Bread testBread = new Bread();
       int quantity1 = 1;
       int quantity2 = 1;
-      Assert.AreEqual(5, testBread.BreadCost(quantity1, quantity2));
+      Assert.AreEqual(11, testBread.BreadCost(quantity1, quantity2));
     }
   }
   [TestClass]
