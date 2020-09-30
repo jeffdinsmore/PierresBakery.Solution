@@ -38,7 +38,6 @@ namespace PierresBakery.Models
       return total;
     }
     
-
   }
   public class Pastry
   {
