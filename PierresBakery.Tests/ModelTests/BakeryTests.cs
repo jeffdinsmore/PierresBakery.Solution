@@ -90,7 +90,7 @@ namespace PierresBakery.Tests
       Pastry testPastry = new Pastry();
       int doughnutQuantity = 7;
       int muffinQuantity = 7;
-      Assert.AreEqual(12, testPastry.PastryCost(doughnutQuantity, muffinQuantity));
+      Assert.AreEqual(17, testPastry.PastryCost(doughnutQuantity, muffinQuantity));
     }
 
     [TestMethod]
@@ -99,7 +99,7 @@ namespace PierresBakery.Tests
       Pastry testPastry = new Pastry();
       int doughnutQuantity = 3;
       int muffinQuantity = 3;
-      Assert.AreEqual(5, testPastry.PastryCost(doughnutQuantity, muffinQuantity));
+      Assert.AreEqual(7, testPastry.PastryCost(doughnutQuantity, muffinQuantity));
     }
     [TestMethod]
     public void FindCostOf1DoughnutAnd1Muffin_InputPastryQuantitiesAndGetPrice_ReturnPriceOf1DoughnutAnd1Muffin()
@@ -107,7 +107,7 @@ namespace PierresBakery.Tests
       Pastry testPastry = new Pastry();
       int doughnutQuantity = 1;
       int muffinQuantity = 1;
-      Assert.AreEqual(2, testPastry.PastryCost(doughnutQuantity, muffinQuantity));
+      Assert.AreEqual(3, testPastry.PastryCost(doughnutQuantity, muffinQuantity));
     }
     
   }
