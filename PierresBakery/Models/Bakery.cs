@@ -57,7 +57,6 @@ namespace PierresBakery.Models
           countFreeItem ++;
         }
       }
-      // int formula = count - countFreeItem;
       int total = pastryCost * count - countFreeItem;
       return total;
     }
