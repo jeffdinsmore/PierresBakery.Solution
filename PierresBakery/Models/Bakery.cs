@@ -47,18 +47,31 @@ namespace PierresBakery.Models
     {
       DoughnutQuantity = doughnutQuantity;
       MuffinQuantity = muffinQuantity;
-      int pastryCost = 2;
-      int count = 0;
-      int countFreeItem = 0;
-      for (int i = 0; i < doughnutQuantity; i++)
+      int muffinCost = 2;
+      int doughnutCost = 1;
+      int countMuffin = 0;
+      int countDoughnut = 0;
+      int countFreeMuffinItem = 0;
+      int countFreeDoughnutItem = 0;
+      for (int i = 0; i < muffinQuantity; i++)
       {
-        count ++;
-        if (count % 3 == 0)
+        countMuffin ++;
+        if (countMuffin % 3 == 0)
         {
-          countFreeItem ++;
+          countFreeMuffinItem ++;
         }
       }
-      int total = pastryCost * count - countFreeItem;
+      for (int i = 0; i < doughnutQuantity; i++)
+      {
+        countDoughnut ++;
+        if (countDoughnut % 3 == 0)
+        {
+          countFreeDoughnutItem ++;
+        }
+      }
+      int muffinTotal = muffinCost * countMuffin - countFreeMuffinItem;
+      int doughnutTotal = doughnutCost * countDoughnut - countFreeDoughnutItem;
+      int total = muffinTotal + doughnutTotal;
       return total;
     }
   }

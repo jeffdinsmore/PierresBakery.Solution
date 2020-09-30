@@ -50,7 +50,7 @@ class Program
       System.Threading.Thread.Sleep(600);
     }
     System.Threading.Thread.Sleep(600);
-    Console.WriteLine("Would you like to buy any Pastries today? Doughnuts are $1 each or 2 for $3 and muffins are $2 each or 3 for $5.");
+    Console.WriteLine("Would you like to buy any Pastries today? Doughnuts are $1 each or 3 for $2 and muffins are $2 each or 3 for $5.");
     string buyPastryResponse = Console.ReadLine().ToLower();
     if (buyPastryResponse.Substring(0,1) == "y")
     {
