@@ -46,6 +46,18 @@ Spec 9: The program accepts an input of any multiple 21 grain and powerseed brea
 * Input: 7, 9
 * Output: "$67"
 
+Spec 10: The program accepts an inputted doughnut and muffin quantities and outputs the calculated price of $3.
+* Input: 1, 1
+* Output: "$3"
+
+Spec 11: The program accepts an inputted doughnut and muffin quantities of 3 and 3 respectively and outputs the calculated price of buy 3 for $2 and buy 3 for $5 for doughnuts and muffins with a base price of $1 and $2 per pastry respectively.
+* Input: 3, 3
+* Output: "$7"
+
+Spec 12: The program accepts an input of any multiple doughnut and muffin quantities and outputs the calculated price of buy 3 for $2 with a base price of $1 per doughnut and buy 3 for $5 with a base price of $2 per muffin.
+* Input: 7, 7
+* Output: "$17"
+
 ## Setup/Installation Requirements
 
 * _Clone this repository._
