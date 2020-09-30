@@ -64,13 +64,25 @@ class Program
         Console.WriteLine("How many doughnuts would you like?");
         doughnutQuantity = int.Parse(Console.ReadLine());
         System.Threading.Thread.Sleep(600);
-        Console.WriteLine("How many loaves of Powerseed bread would you like?");
-        powerseedQuantity = int.Parse(Console.ReadLine());
+        Console.WriteLine("How many muffins would you like?");
+        muffinQuantity = int.Parse(Console.ReadLine());
       }
-      Console.WriteLine("How many doughnuts would you like?")
+      else if (pastryTypeResponse.Substring(0,1) == "d")
+      {
+        System.Threading.Thread.Sleep(600);
+        Console.WriteLine("How many doughnuts would you like?");
+        doughnutQuantity = int.Parse(Console.ReadLine());
+      }
+      else if (pastryTypeResponse.Substring(0,1) == "m")
+      {
+        System.Threading.Thread.Sleep(600);
+        Console.WriteLine("How many muffins would you like?");
+        muffinQuantity = int.Parse(Console.ReadLine());
+      }
+      Console.WriteLine("----------");
       Console.WriteLine("Excellent!");
       Pastry newPastry = new Pastry();
-      pastryTotal = newPastry.PastryCost(pastryQuantityResponse);
+      pastryTotal = newPastry.PastryCost(doughnutQuantity, muffinQuantity);
       System.Threading.Thread.Sleep(800);
     }
 

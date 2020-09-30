@@ -41,14 +41,16 @@ namespace PierresBakery.Models
   }
   public class Pastry
   {
-    public int Quantity {get; set;}
-    public int PastryCost(int quantity)
+    public int DoughnutQuantity {get; set;}
+    public int MuffinQuantity {get; set;}
+    public int PastryCost(int doughnutQuantity, int muffinQuantity)
     {
-      Quantity = quantity;
+      DoughnutQuantity = doughnutQuantity;
+      MuffinQuantity = muffinQuantity;
       int pastryCost = 2;
       int count = 0;
       int countFreeItem = 0;
-      for (int i = 0; i < quantity; i++)
+      for (int i = 0; i < doughnutQuantity; i++)
       {
         count ++;
         if (count % 3 == 0)
