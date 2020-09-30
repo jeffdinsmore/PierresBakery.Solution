@@ -55,7 +55,7 @@ class Program
     if (buyPastryResponse.Substring(0,1) == "y")
     {
       System.Threading.Thread.Sleep(800);
-      Console.WriteLine("--------------------------------------------");
+      Console.WriteLine("-----------------------------------------------------");
       Console.WriteLine("Very good! Would you like doughnuts, muffins or both?");
       string pastryTypeResponse = Console.ReadLine().ToLower();
       if (pastryTypeResponse.Substring(0,1) == "b")
@@ -85,10 +85,6 @@ class Program
       pastryTotal = newPastry.PastryCost(doughnutQuantity, muffinQuantity);
       System.Threading.Thread.Sleep(800);
     }
-
-
-    int doughnutQuantityResponse = int.Parse(Console.ReadLine());
-
     int purchaseTotal = breadTotal + pastryTotal;
     if (purchaseTotal == 0)
     {
