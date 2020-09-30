@@ -13,12 +13,15 @@ class Program
     int muffinQuantity = 0;
     Console.WriteLine("Welcome to Pierre's Bakery! The best baked goods in town!");
     Console.WriteLine("We sell bread and we sell pastries.");
+    Console.ForegroundColor = ConsoleColor.Cyan; 
     Console.WriteLine("Would you like to buy any bread today? Twenty One Grain is $5 each or buy 2, get 1 free and Powerseed is $6 each or buy 3, get 1 free.");
     string buyBreadResponse = Console.ReadLine().ToLower();
     if (buyBreadResponse.Substring(0,1) == "y")
     {
       System.Threading.Thread.Sleep(800);
+      Console.ForegroundColor = ConsoleColor.White;
       Console.WriteLine("-------------------------------------------------------------------------------------");
+      Console.ForegroundColor = ConsoleColor.Cyan;
       Console.WriteLine("Very good! What type of bread would you like? Twenty One Grain or Powerseed or both?");
       string breadType = Console.ReadLine().ToLower();
       
@@ -43,6 +46,7 @@ class Program
         Console.WriteLine("How many loaves of 21 Grain bread would you like?");
         twentyOneGrainQuantity = int.Parse(Console.ReadLine());
       }
+      Console.ForegroundColor = ConsoleColor.White;
       Console.WriteLine("----------");
       Console.WriteLine("Excellent!");
       Bread newBread = new Bread();
@@ -50,12 +54,15 @@ class Program
       System.Threading.Thread.Sleep(600);
     }
     System.Threading.Thread.Sleep(600);
+    Console.ForegroundColor = ConsoleColor.Cyan;
     Console.WriteLine("Would you like to buy any Pastries today? Doughnuts are $1 each or 3 for $2 and muffins are $2 each or 3 for $5.");
     string buyPastryResponse = Console.ReadLine().ToLower();
     if (buyPastryResponse.Substring(0,1) == "y")
     {
       System.Threading.Thread.Sleep(800);
+      Console.ForegroundColor = ConsoleColor.White;
       Console.WriteLine("-----------------------------------------------------");
+      Console.ForegroundColor = ConsoleColor.Cyan;
       Console.WriteLine("Very good! Would you like doughnuts, muffins or both?");
       string pastryTypeResponse = Console.ReadLine().ToLower();
       if (pastryTypeResponse.Substring(0,1) == "b")
@@ -79,6 +86,7 @@ class Program
         Console.WriteLine("How many muffins would you like?");
         muffinQuantity = int.Parse(Console.ReadLine());
       }
+      Console.ForegroundColor = ConsoleColor.White;
       Console.WriteLine("----------");
       Console.WriteLine("Excellent!");
       Pastry newPastry = new Pastry();
@@ -89,6 +97,7 @@ class Program
     if (purchaseTotal == 0)
     {
       System.Threading.Thread.Sleep(800);
+      Console.ForegroundColor = ConsoleColor.White;
       Console.WriteLine("------------------------------------------------------------------------------");
       Console.WriteLine("We are sorry to see you go without any delicious baked goods! Have a nice day!");
     }
@@ -104,5 +113,6 @@ class Program
       System.Threading.Thread.Sleep(2000);
       Console.WriteLine("We really appreciate you coming in today!");
     }
+    Console.ForegroundColor = ConsoleColor.White;
   }
 }
