@@ -66,7 +66,7 @@ namespace PierresBakery.Tests
     {
       Pastry testPastry = new Pastry();
       int quantity = 7;
-      Assert.AreEqual(12, testPastry.PastryCost(quantity));
+      Assert.AreEqual(12, testPastry.PastryCost(0, quantity));
     }
 
     [TestMethod]
@@ -74,14 +74,40 @@ namespace PierresBakery.Tests
     {
       Pastry testPastry = new Pastry();
       int quantity = 3;
-      Assert.AreEqual(5, testPastry.PastryCost(quantity));
+      Assert.AreEqual(5, testPastry.PastryCost(0, quantity));
     }
     [TestMethod]
     public void FindCostOfOnePastry_InputPastryQuantityAndGetPrice_ReturnPriceOfOnePastry()
     {
       Pastry testPastry = new Pastry();
       int quantity = 1;
-      Assert.AreEqual(2, testPastry.PastryCost(quantity));
+      Assert.AreEqual(2, testPastry.PastryCost(0, quantity));
+    }
+
+    [TestMethod]
+    public void FindTotalCostOfTwoTypesOfPastries_InputPastryQuantitiesAndGetPrice_ReturnPriceOfMultiplePastries()
+    {
+      Pastry testPastry = new Pastry();
+      int doughnutQuantity = 7;
+      int muffinQuantity = 7;
+      Assert.AreEqual(12, testPastry.PastryCost(doughnutQuantity, muffinQuantity));
+    }
+
+    [TestMethod]
+      public void FindTotalCostOf3DoughnutsAnd3Muffins_InputPastryQuantitiesAndGetPrice_ReturnPriceOfBuy3For2AndBuy3For5()
+    {
+      Pastry testPastry = new Pastry();
+      int doughnutQuantity = 3;
+      int muffinQuantity = 3;
+      Assert.AreEqual(5, testPastry.PastryCost(doughnutQuantity, muffinQuantity));
+    }
+    [TestMethod]
+    public void FindCostOf1DoughnutAnd1Muffin_InputPastryQuantitiesAndGetPrice_ReturnPriceOf1DoughnutAnd1Muffin()
+    {
+      Pastry testPastry = new Pastry();
+      int doughnutQuantity = 1;
+      int muffinQuantity = 1;
+      Assert.AreEqual(2, testPastry.PastryCost(doughnutQuantity, muffinQuantity));
     }
     
   }
