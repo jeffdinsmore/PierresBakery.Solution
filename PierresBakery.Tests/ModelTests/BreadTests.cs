@@ -17,7 +17,7 @@ namespace PierresBakery.Tests
     }
 
     [TestMethod]
-    public void BreadCost_Buy2Get1FreeAt5Each_Ten()
+    public void BreadCost_3LoavesAtBuy2Get1FreeAt5Each_Ten()
     {
       Bread testBread = new Bread();
       int quantity = 3;

@@ -10,7 +10,7 @@ namespace PierresBakery.Tests
   public class PastryTests
   {
     [TestMethod]
-    public void PastryCost_BuySevenMuffinsAtBuy3For5_Twelve()
+    public void PastryCost_Buy7MuffinsAtBuy3For5_Twelve()
     {
       Pastry testPastry = new Pastry();
       int quantity = 7;
@@ -33,7 +33,7 @@ namespace PierresBakery.Tests
     }
 
     [TestMethod]
-    public void PastryCost_Buy7Each_Seventeen()
+    public void PastryCost_Buy7PastriesEach_Seventeen()
     {
       Pastry testPastry = new Pastry();
       int doughnutQuantity = 7;
